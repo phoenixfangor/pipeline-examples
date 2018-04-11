@@ -1,0 +1,23 @@
+pipeline 
+{
+  
+  agent any
+  
+  options
+  {
+    timestamps()
+  }
+	  
+    stages
+		{
+			
+      stage ('name your stage')
+			{
+					
+				steps
+				{
+          //steps go here
+        }
+      }
+    }
+}
